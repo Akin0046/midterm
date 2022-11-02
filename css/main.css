@@ -2,10 +2,14 @@ body {
     background-color: #aad4cf;
 }
 
-nav li {
+.navbar ul li {
     display: inline;
-    }
+    width: 100%;
+    padding: 2rem;
+    text-align: center;
+    border-right: 2rem 0;
 
+}
 h1 {
     font-family: Arial, Helvetica, sans-serif;
 }
@@ -78,14 +82,4 @@ header {
         
     }
 
-@media screen and (min-width ) {
-    
-}
-nav{
-    width: 100%;
-}
-nav ul li {
-    border: 1px solid black;
-    text-decoration: none;
 
-}
