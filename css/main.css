@@ -1,3 +1,48 @@
 body {
     background-color: #aad4cf;
 }
+
+nav li {
+    display: inline;
+    }
+
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h2 {
+    font-family: Arial, Helvetica, sans-serif;
+}
+.main-body {
+    background-color: lightcyan;
+    width: 900px;
+    margin: 0 auto;
+}
+    .main-body img {
+        width: 200px;
+        float: left;
+        margin: 10px ;
+    }
+
+    h1 {
+        position: absolute;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        z-index: 100;
+        color: white;
+        text-align: center;
+        font-family: Arial, Helvetica, sans-serif;
+        top: 100px;
+        font-size: 60px;
+        margin: 0 auto;
+    }
+    
+    
+    .long {
+        position: relative;
+        text-align: center;
+        color: white;
+        margin-left: 0px;
+        margin-right: 11px;
+    }
+
